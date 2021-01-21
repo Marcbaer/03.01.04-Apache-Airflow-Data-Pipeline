@@ -12,17 +12,13 @@ The files in the repository are used as described below:
 * **[create_tables.sql](create_tables.sql)**: SQL commands to create the dimensional model.
 * **[test_staging_dag.py](test_staging_dag.py)**: Test file for debugging purposes.
 
-## Final Dimensional Database Schema:
-
-<img src="./databasedesign.PNG" width="500" height="500">
-
 ## Datasets:
 
 The used datasets are located on an S3 bucket and are stored in json format. 
 The song_data is a subset from the [Million Song Dataset](http://millionsongdataset.com/) and the log_data contains streaming information of a music streaming platform.
 
 ## Airflow Pipeline:
-<img src="./airflow_pipeline.PNG" width="800" height="300">
+<img src="./dags/airflow_pipeline.PNG" width="800" height="300">
 
 
 ## Setup and Execution
