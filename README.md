@@ -18,7 +18,7 @@ The used datasets are located on an S3 bucket and are stored in json format.
 The song_data is a subset from the [Million Song Dataset](http://millionsongdataset.com/) and the log_data contains streaming information of a music streaming platform.
 
 ## Airflow Pipeline:
-<img src="./dags/airflow_pipeline.PNG" width="800" height="300">
+<img src="./dags/airflow_pipeline.PNG" width="1100" height="300">
 
 
 ## Setup and Execution
